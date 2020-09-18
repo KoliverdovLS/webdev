@@ -1,0 +1,225 @@
+
+.telega {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 0px;
+}
+
+.insta {
+    position: absolute;
+    left: 58.82%;
+    right: 29.41%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 0px;
+}
+
+.mail {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+}
+
+.social {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 715px;
+    top: 635px;
+}
+
+.text-btn-main {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 47px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+.btn-main {
+
+    position: relative;
+    width: 184px;
+    height: 46px;
+    left: 707px;
+    top: 406px;
+
+    background: #00AFDB;
+}
+
+.faq {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 1058px;
+    top: 31px;
+}
+
+.projects {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: 923px;
+    top: 31px;
+}
+
+.logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 17px;
+}
+
+.syllabus {
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: 625px;
+    top: 31px;
+}
+
+.about {
+    position:absolute;
+    left: 502px;
+    top: 31px;
+    width: 38px;
+    height: 21px;
+}
+
+.scr1 {
+    position: absolute;
+    width: 1600px;
+    height: 744px;
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/back-image.jpg);
+
+}
+
+header {
+    position: relative;
+    width: 1600px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.textscr1_little {
+      position: absolute;
+      width: 504px;
+      height: 50px;
+      left: 548px;
+      top: 326px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      /* or 25px */
+
+      text-align: center;
+
+      color: #FFFFFF;
+
+  }
+
+.textscr1 {
+    position: absolute;
+    width: 730px;
+    height: 75px;
+    left: 435px;
+    top: 230px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background-color: white;
+}
+
+.all {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4E4E4E;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    background-color: white;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
