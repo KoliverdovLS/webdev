@@ -1,3 +1,112 @@
+
+
+.image-slider3 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 874px;
+    top: 0px;
+}
+
+.image-slider2 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 437px;
+    top: 0px;
+}
+
+.image-slider1 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.slider-block-scr3 {
+    position: absolute;
+    width: 894px;
+    height: 244px;
+    left: 706px;
+    top: 120px;
+    overflow: hidden;
+}
+
+.text-scr3 {
+    position: absolute;
+    width: 298px;
+    height: 80px;
+    left: calc(50% - 298px/2);
+    top: 96px;
+
+    /* body-14-reg */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 20px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #4E4E4E;
+}
+
+.text-h-scr3 {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: calc(50% - 160px/2);
+    top: 65px;
+
+    /* h3-16-upper-bold */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+
+.image-scr3 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 127px;
+    top: 0px;
+
+}
+
+.content-block-scr3 {
+    position: absolute;
+    width: 298px;
+    height: 175px;
+    left: 269px;
+    top: 155px;
+}
+
+.scr3 {
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    top: 1586px;
+    background-color: #F5F6F7;
+}
+
 .btn-main-scr2 {
     position: absolute;
     width: 184px;
@@ -78,6 +187,7 @@
     width: 1600px;
     height: 842px;
     top: 744px;
+    background-color: white;
 }
 
 .telega:hover {
@@ -328,7 +438,7 @@ h2 {
 }
 
 body {
-    background-color: white;
+    background-color: #F2F2F2;
 }
 
 .all {
