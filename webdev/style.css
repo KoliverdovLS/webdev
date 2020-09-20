@@ -22,17 +22,47 @@
 
 }
 
-.input-email-scr5 {
+input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.5;
+    padding-left: 22px;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+input:focus {
     position: absolute;
-    width: 340px;
-    height: 46px;
+    width: 336px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+
+    outline: none;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0px;
+}
+
+input {
+    position: absolute;
+    width: 336px;
+    height: 44px;
     left: 0px;
     top: 0px;
 
     background: #FFFFFF;
+    border: none;
     border-radius: 0px;
 
 }
+
 
 .email-block-scr5 {
     position: absolute;
@@ -229,10 +259,12 @@
 
 .slider-button-rigth:hover {
     transform: scale(1.2);
+    opacity: 0.5;
 }
 
 .slider-button-left:hover {
     transform: scale(1.2);
+    opacity: 0.5;
 }
 
 .slider-button-rigth {
