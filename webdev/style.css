@@ -1,4 +1,9 @@
 
+.our-teams:hover {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
 .our-teams {
     position: absolute;
     width: 65px;
@@ -30,6 +35,11 @@
     transform: rotate(-90deg);
 }
 
+.privacy:hover {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
 .privacy {
     position: absolute;
     width: 46px;
@@ -59,6 +69,11 @@
 
     border: 1px solid #4E4E4E;
     transform: rotate(-90deg);
+}
+
+.credits:hover {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
 }
 
 .credits {
